@@ -101,4 +101,24 @@ class SinglyLinkedList {
     // Returns list
     return this;
   }
+  // Gets node from index position
+  get(index) {
+    // Checking for out of bounds
+    if (index < 0 || index >= this.length) return null;
+    // Internal counter
+    var counter = 0;
+    // Current head
+    var current = this.head;
+    // Looping over each node ending when we find the correct index
+    while (counter !== index) {
+      // Setting current to the next node
+      current = current.next;
+      // Increasing counter by one
+      counter++;
+    }
+    // Returning the found node
+    return current;
+  }
 }
+
+module.exports = SinglyLinkedList
