@@ -7,7 +7,7 @@ class Node {
 }
 // Keeps all the nodes and updates the head and tail of the linked list.
 // Provides interface for working with the list
-export default class SinglyLinkedList {
+class SinglyLinkedList {
   // Normalizing an empty list on NEW 
   constructor() {
     this.head = null;
@@ -80,5 +80,25 @@ export default class SinglyLinkedList {
     }
     // Returns the removed node
     return currentHead
+  }
+  // Adds a node to the beginning of the list
+  unshift(val) {
+    // New node with value passed in 
+    let newNode = new Node(val);
+    // Case if there is no nodes in the list
+    if (!this.head) {
+      // Points head and tail to new node
+      this.head = newNode;
+      this.tail = this.head;
+      // Otherwise add the new node to the beginning of the list
+    } else {
+      // Updates the previuous head
+      newNode.next = this.head;
+      this.head = newNode;
+    }
+    // Increases internal length variable
+    this.length++;
+    // Returns list
+    return this;
   }
 }
