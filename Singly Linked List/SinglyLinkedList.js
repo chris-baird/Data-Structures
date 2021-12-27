@@ -134,6 +134,29 @@ class SinglyLinkedList {
     // No node was found
     return false;
   }
+  // Inserts a new node with passed in value at the given index
+  insert(index, val) {
+    // Validating passin in index for in bounds
+    if (index < 0 || index > this.length) return false;
+    // Adds to the end of the list and returns true
+    if (index === this.length) return !!this.push(val);
+    // Adds to the beginning of the list and return true
+    if (index === 0) return !!this.unshift(val);
+    // Creates new node
+    var newNode = new Node(val);
+    // Previous node
+    var prev = this.get(index - 1);
+    // Temp variable for swaping
+    var temp = prev.next;
+    // Setting the previous nodes next to the new node
+    prev.next = newNode;
+    // Setting the new nodes next to the temperory variable
+    newNode.next = temp;
+    // Increases internal length variable
+    this.length++;
+    // Returns true
+    return true;
+  }
 }
 
 module.exports = SinglyLinkedList
