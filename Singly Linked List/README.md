@@ -20,10 +20,10 @@ A singly linked list is **a type of linked list that is unidirectional**, that i
 	**`pop()`** when called removes the node at the end of the linked list.
 	**returns** the removed node.
  - ### Shift
-	**`shift()`** when called adds the node at the beginning of the linked list.
+	**`shift()`** when called removes the node at the beginning of the linked list.
 	**returns** the removed node.
  - ### Unshift
-	**`unshift(value)`** when called will insert a new node at the beginning of the linked list.
+	**`unshift(value)`** when called will add a new node at the beginning of the linked list.
 	**returns** the linked list
  - ### Get
  - ### Set
