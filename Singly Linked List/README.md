@@ -20,11 +20,11 @@ A singly linked list is **a type of linked list that is unidirectional**, that i
 	The **`pop()`** method of the SinglyLinkedList interface, when called the node at the end of the linked list will be removed and returned.
 	**returns** the removed node.
  - ### Shift
-
-	Removes the node at the beginning of the list
+	The **`shift()`** method of the SinglyLinkedList interface, when called the node at the beginning of the linked list will be removed and returned.
+	**returns** the removed node.
  - ### Unshift
-
-	Inserts a new node at the beginning of the list
+	The **`unshift()`** method of the SinglyLinkedList interface, when called will insert a new node at the beginning of the linked list.
+	**returns** the linked list
  - ### Get
  - ### Set
  - ### Insert
