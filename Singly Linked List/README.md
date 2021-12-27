@@ -13,23 +13,23 @@ A singly linked list is **a type of linked list that is unidirectional**, that i
 ## Methods
 
  - ### Push
-The **`push()`** method of the SinglyLinkedList interface, when passed a value will add a new node to the end of the linked list.
+	The **`push()`** method of the SinglyLinkedList interface, when passed a value will add a new node to the end of the linked list.
 	**returns** the linked list.
 
- - Pop
-The **`pop()`** method of the SinglyLinkedList interface, when called the node at the end of the linked list will be removed and returned.
+ - ### Pop
+	The **`pop()`** method of the SinglyLinkedList interface, when called the node at the end of the linked list will be removed and returned.
 	**returns** the removed node.
- - Shift
+ - ### Shift
 
-Removes the node at the beginning of the list
- - Unshift
+	Removes the node at the beginning of the list
+ - ### Unshift
 
-Inserts a new node at the beginning of the list
- - Get
- - Set
- - Insert
- - Remove
- - Reverse
+	Inserts a new node at the beginning of the list
+ - ### Get
+ - ### Set
+ - ### Insert
+ - ### Remove
+ - ### Reverse
 
 ## Big O
 
