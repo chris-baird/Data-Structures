@@ -2,7 +2,7 @@
 
  1. [About](#About)
  2. [Methods](#Methods)
- 3. [Big O](#Big%20O)
+ 3. [Big O](#Big-O)
  4. [Developer Info](#Developer%20Info)
 
 ## About
@@ -31,7 +31,7 @@ A singly linked list is **a type of linked list that is unidirectional**, that i
  - ### Remove
  - ### Reverse
 
-## Big%20O
+## Big-O
 
  - **Insertion** O(1)
  - **Removal** O(1) if **First item** of list **or** O(n) **otherwise**
