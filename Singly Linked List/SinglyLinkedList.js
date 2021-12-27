@@ -63,4 +63,22 @@ export default class SinglyLinkedList {
     // Returns the removed node
     return current
   }
+  // Shift removes from the begging of the list
+  // Returns undefined if list is empty
+  shift() {
+    // Checks if head is null
+    if (!this.head) return undefined
+    // Pointer to current head
+    let currentHead = this.head
+    // Updating head to next node
+    this.head = currentHead.next
+    // // Decrementing the internal length
+    this.length--
+    // Checks if list is empty and sets head and tail to null
+    if (this.length === 0) {
+      this.tail = 0
+    }
+    // Returns the removed node
+    return currentHead
+  }
 }
