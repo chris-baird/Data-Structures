@@ -119,6 +119,21 @@ class SinglyLinkedList {
     // Returning the found node
     return current;
   }
+  // Sets the passed in value on the node matching the passed in index
+  // Returns false if mathing node is not found
+  set(index, val) {
+    // Using built in get method to retrieve node by index
+    let foundNode = this.get(index);
+    // Checking if a node was found
+    if (foundNode) {
+      // Setting the found nodes val to the passed in value
+      foundNode.val = val;
+      // Returning true if node was updated
+      return true;
+    }
+    // No node was found
+    return false;
+  }
 }
 
 module.exports = SinglyLinkedList
