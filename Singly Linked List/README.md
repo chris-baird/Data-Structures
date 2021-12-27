@@ -1,8 +1,8 @@
 # Singly Linked List
 
- 1. [About](#Developer%20Info)
- 2. [Methods](#Developer%20Info)
- 3. [Big O](#Developer%20Info)
+ 1. [About](#About)
+ 2. [Methods](#Methods)
+ 3. [Big O](#Big O)
  4. [Developer Info](#Developer%20Info)
 
 ## About
