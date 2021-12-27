@@ -2,7 +2,7 @@
 
  1. [About](#About)
  2. [Methods](#Methods)
- 3. [Big O](#Big O)
+ 3. [Big O](#Big%20O)
  4. [Developer Info](#Developer%20Info)
 
 ## About
