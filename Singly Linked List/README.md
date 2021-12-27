@@ -12,7 +12,7 @@ A singly linked list is **a type of linked list that is unidirectional**, that i
 
 ## Methods
 
- - Push
+ - ### Push
 The **`push()`** method of the SinglyLinkedList interface, when passed a value will add a new node to the end of the linked list.
 	**returns** the linked list.
 
