@@ -31,7 +31,7 @@ A singly linked list is **a type of linked list that is unidirectional**, that i
  - ### Remove
  - ### Reverse
 
-## Big O
+## Big%20O
 
  - **Insertion** O(1)
  - **Removal** O(1) if **First item** of list **or** O(n) **otherwise**
