@@ -13,7 +13,7 @@ A singly linked list is **a type of linked list that is unidirectional**, that i
 ## Methods
 
  - ### Push
-	The **`push()`** is passed a value and will add a new node to the end of the linked list.
+	The **`push(value)`** is passed a value and will add a new node to the end of the linked list.
 	**returns** the linked list.
 
  - ### Pop
@@ -23,7 +23,7 @@ A singly linked list is **a type of linked list that is unidirectional**, that i
 	The **`shift()`** when called adds the node at the beginning of the linked list.
 	**returns** the removed node.
  - ### Unshift
-	The **`unshift()`** when called will insert a new node at the beginning of the linked list.
+	The **`unshift(value)`** when called will insert a new node at the beginning of the linked list.
 	**returns** the linked list
  - ### Get
  - ### Set
